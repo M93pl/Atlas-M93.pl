@@ -3,16 +3,11 @@
 ### Aplikacja na smartfona
 To quiz geograficzny napisany w języku Kotlin. Program stworzony w Android Studio, kompilowany do formatu APK.
 Aplikacja jest kompatybilna z każdą wersją systemu Android nowszą niż 8.0.
-ver. 1.1.3
+<br>ver. 1.1.3
 
 <br><br>
-
-
-
-<br><br>
-# https://www.m93.pl
-
 ----------------------
+### https://www.m93.pl
 contact:<br>
 info@m93.pl<br>
 contact@m93.pl<br><br>
