@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="kremowy">#E2DFD0</color>
+    <color name="czerwony">#E74C3C</color>
+    <color name="granatowy">#2C3E50</color>
+    <color name="zielony">#A8C545</color>
+    <color name="niebieski">#2980B9</color>
+    <color name="pomaranczowy">#FEA13B</color>
+    <color name="brudna_biel">#ECF0F1</color>
+</resources>

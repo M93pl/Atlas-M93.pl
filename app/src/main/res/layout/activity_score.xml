@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kremowy"
+    tools:context=".Score">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Koniec gry!"
+        android:textColor="@color/granatowy"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/wyniki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Zdobywasz 15 punktów, brawo!"
+        android:textColor="@color/granatowy"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/listaWynikow"
+        android:layout_width="364dp"
+        android:layout_height="196dp"
+        android:layout_marginTop="30dp"
+        android:text="Twoje najlepsze wyniki:\n1. 12 pkt.\n2. 9 pkt.\n3. 9 pkt.\n4. 3 pkt.\n5. 0 pkt."
+        android:textAlignment="center"
+        android:textColor="@color/granatowy"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wyniki" />
+
+    <Button
+        android:id="@+id/again"
+        android:layout_width="333dp"
+        android:layout_height="89dp"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/prostokatny"
+        android:text="Jeszcze raz?"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listaWynikow" />
+
+    <Button
+        android:id="@+id/wyjscie"
+        android:layout_width="333dp"
+        android:layout_height="89dp"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/prostokatny3"
+        android:text="Zamknij"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/again" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
